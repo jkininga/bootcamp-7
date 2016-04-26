@@ -1,2 +1,1 @@
-# bootcamp-7
-project
+*.pyc
