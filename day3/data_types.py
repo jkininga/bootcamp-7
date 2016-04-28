@@ -1,3 +1,4 @@
+
 def data_type(x):
     """
     Takes in an argument x:
@@ -29,11 +30,3 @@ print data_type(2.7)
 print data_type(True)
 print data_type(6666666666666666666666666678998676755)
 print data_type('MOTHER')
-
-
-
-
-
-	
-	  
-	 
