@@ -1,4 +1,6 @@
-if string is not "":
+def reverse_string(string):
+	reverse_string= ''
+	if string is not "":
 		for b in string:
 			rev_string = b+rev_string
 		if rev_string == string:
@@ -6,3 +8,6 @@ if string is not "":
 		return rev_string
 	else:
 		return None
+
+
+# print reverse_string('caro')

@@ -9,10 +9,8 @@ def super_sum(*args):
 
 	    super_sum([10],[20,30])==> 60
 	'''
-	total =0
-	if not args:
-		return 0
-	else:
+	total = 0
+	if args:
 		for x in args:
 			if type(x) == list:
 				total += sum(x)
@@ -21,7 +19,11 @@ def super_sum(*args):
 			else:
 				total += x
 		return total		
-				
+	else:
+		return 0
+print super_sum([2,4],[7,9,6],[3,2])		
+
+		
 
 		
 	
